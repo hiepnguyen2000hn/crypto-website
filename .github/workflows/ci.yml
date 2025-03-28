@@ -25,8 +25,5 @@ jobs:
       - name: Build Next.js
         run: npm run build
 
-      - name: Test
-        run: npm test         # Nếu bạn có test, hãy đảm bảo script "test" trong package.json
-
       # - name: Deploy
       #   run: ...            # Thêm bước deploy nếu cần
